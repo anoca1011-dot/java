@@ -13,26 +13,41 @@ public class Ex13{
        }else{
        switch(sem){
         case 1:
-            System.out.println("domingo");
+            System.out.println("é janeiro-verao");
             break;
             case 2:
-                System.out.println("segunda-feira");
+                System.out.println("é fevereiro-verão");
                 break;
                 case 3:
-                    System.out.println("terça-feira");
+                    System.out.println("é março-outono");
                     break;
                     case 4:
-                        System.out.println("quarta-feira");
+                        System.out.println("é abril-outono");
                         break;
                         case 5:
-                            System.out.println("quinta-feira");
+                            System.out.println("é maio-outono");
                             break;
                             case 6:
-                                System.out.println("sexta-feira");
+                                System.out.println("é junho-inverno");
                                 break;
                                 case 7:
-                                    System.out.println("sabado");
+                                    System.out.println("é julho-inverno");
                                     break;
+                                    case 8:
+                                        System.out.println("é agosto-inverno");
+                                        break;
+                                        case 9:
+                                            System.out.println("é setembro-primavera");
+                                            break;
+                                            case 10:
+                                                System.out.println("é outubro-primavera");
+                                                break;
+                                                case 11:
+                                                    System.out.println("é novembro-primavera");
+                                                    break;
+                                                    case 12:
+                                                        System.out.println("é dezembro-verao");
+                                                        break;
        }
       } 
     }
